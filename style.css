@@ -95,7 +95,7 @@ nav{
 /* APP SCREENSHOTS */
 .app-screenshots{
   position:relative;display:flex;gap:18px;justify-content:center;align-items:center;
-  margin:32px 0 0;padding:28px 34px 22px;flex-wrap:nowrap;
+  margin:32px auto 0;padding:28px 34px 22px;flex-wrap:nowrap;max-width:700px;
   border:1px solid var(--edge);border-radius:38px;
   background:linear-gradient(135deg,var(--surface-2),var(--surface));
   box-shadow:0 0 0 1px rgba(201,162,39,0.08), inset 0 1px 0 rgba(201,162,39,0.12);
