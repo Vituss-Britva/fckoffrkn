@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://vituss-britva.github.io/fckoffrkn/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vituss-britva.github.io/fckoffrkn/img/logo.webp</image:loc>
+      <image:title>FckoffRkn логотип</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vituss-britva.github.io/fckoffrkn/img/og-image.webp</image:loc>
+      <image:title>FckoffRkn приложение для казино и БК</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vituss-britva.github.io/fckoffrkn/img/screen1.webp</image:loc>
+      <image:title>Скриншот 1 приложения FckoffRkn</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vituss-britva.github.io/fckoffrkn/img/screen2.webp</image:loc>
+      <image:title>Скриншот 2 приложения FckoffRkn</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vituss-britva.github.io/fckoffrkn/img/screen3.webp</image:loc>
+      <image:title>Скриншот 3 приложения FckoffRkn</image:title>
+    </image:image>
+  </url>
+</urlset>
