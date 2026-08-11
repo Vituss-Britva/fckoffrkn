@@ -93,15 +93,30 @@ nav{
 .stat-label{font-size:.78rem;color:var(--ink-dim);margin-top:4px}
 
 /* APP SCREENSHOTS */
-.app-screenshots{display:flex;gap:20px;justify-content:center;align-items:center;margin:32px 0 0;flex-wrap:nowrap}
-.app-screen{width:190px;height:410px;flex-shrink:0;border-radius:24px;box-shadow:0 6px 24px rgba(0,0,0,.5);object-fit:cover;cursor:zoom-in;transition:transform .2s}
-.app-screen:hover{transform:scale(1.03)}
+.app-screenshots{
+  position:relative;display:flex;gap:18px;justify-content:center;align-items:center;
+  margin:32px 0 0;padding:28px 34px 22px;flex-wrap:nowrap;
+  border:1px solid var(--edge);border-radius:38px;
+  background:linear-gradient(135deg,var(--surface-2),var(--surface));
+  box-shadow:0 0 0 1px rgba(201,162,39,0.08), inset 0 1px 0 rgba(201,162,39,0.12);
+  perspective:900px;
+}
+.app-screen{
+  width:190px;height:410px;flex-shrink:0;object-fit:cover;
+  border-radius:24px;border:1px solid var(--edge);
+  box-shadow:0 24px 60px rgba(0,0,0,.48), 0 0 28px rgba(201,162,39,.14);
+  cursor:zoom-in;transition:transform .24s ease, box-shadow .24s ease;
+}
+.app-screen:nth-child(1){transform:rotate(-5deg) translateY(16px)}
+.app-screen:nth-child(2){transform:translateY(-8px) scale(1.04);box-shadow:0 30px 76px rgba(0,0,0,.54), 0 0 36px rgba(233,207,143,.18)}
+.app-screen:nth-child(3){transform:rotate(5deg) translateY(16px)}
+.app-screen:hover{transform:translateY(-12px) scale(1.06);box-shadow:0 34px 86px rgba(0,0,0,.56), 0 0 46px rgba(201,162,39,.24)}
 .lb-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out}
 .lb-overlay.open{display:flex}
 .lb-overlay img{max-height:92vh;max-width:94vw;border-radius:16px;box-shadow:0 20px 80px rgba(0,0,0,.9)}
-@media (max-width:600px){
-  .app-screenshots{gap:8px}
-  .app-screen{width:28vw;height:60vw;min-width:88px;border-radius:16px}
+@media (max-width:900px){
+  .app-screenshots{padding:22px 22px 18px;gap:12px;border-radius:30px}
+  .app-screen{width:28vw;height:60vw;min-width:110px;border-radius:18px}
 }
 
 /* SECTIONS */
